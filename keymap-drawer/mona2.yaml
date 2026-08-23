@@ -134,7 +134,7 @@ layers:
   - Ctl+Sft+TAB
   - PRINTSCREEN
   - Ctl+TAB
-  - '&translate'
+  - '&paste_go'
   - {t: ▽, type: trans}
   - '&mkp MB4'
   - {t: '&mkp MB3', type: held}
