@@ -50,7 +50,7 @@
                 <&kp LC(C)>,
                 <&macro_wait_time 150>,
                 <&kp LG(N5)>,
-                <&macro_wait_time 500>,
+                <&macro_wait_time 700>,
                 <&kp LC(V)>,
                 <&macro_wait_time 100>,
                 <&kp ENTER>;
