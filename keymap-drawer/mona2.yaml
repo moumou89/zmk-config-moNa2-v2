@@ -77,7 +77,7 @@ layers:
   - DOWN
   - RIGHT
   - '~'
-  - {t: ▽, type: trans}
+  - '&paste_go'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
