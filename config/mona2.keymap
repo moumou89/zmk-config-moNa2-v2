@@ -43,22 +43,10 @@
             label = "TO_LAYER_0";
         };
 
-        translate: translate {
+        paste_go: translate {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&kp LC(C)>,
-                <&macro_wait_time 150>,
-                <&macro_press>,
-                <&kp LEFT_GUI>,
-                <&macro_tap>,
-                <&kp N5>,
-                <&macro_release>,
-                <&kp LEFT_GUI>,
-                <&macro_wait_time 500>,
-                <&kp LC(V)>,
-                <&macro_wait_time 100>,
-                <&kp ENTER>;
+            bindings = <&kp LC(V)>, <&macro_wait_time 50>, <&kp ENTER>;
 
             label = "TRANSLATE";
         };
@@ -129,7 +117,7 @@
 
         layer_3 {
             bindings = <
-&trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &translate                                 &trans         &mkp MB4        &mkp MB3        &mkp MB5         &trans
+&trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &paste_go                                  &trans         &mkp MB4        &mkp MB3        &mkp MB5         &trans
 &trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans         &mkp MB1        &kp UP_ARROW    &mkp MB2         &trans
 &trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans              &trans                  &trans                   &trans                   &trans    &trans  &kp LC(ENTER)                                                   &kp LS(LG(S))
