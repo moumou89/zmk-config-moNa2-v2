@@ -48,13 +48,13 @@
             #binding-cells = <0>;
             bindings =
                 <&kp LC(C)>,
-                <&macro_wait_time 100>,
+                <&macro_wait_time 50>,
                 <&kp LG(N5)>,
-                <&macro_wait_time 500>,
+                <&macro_wait_time 300>,
                 <&kp LC(I)>,
-                <&macro_wait_time 100>,
+                <&macro_wait_time 50>,
                 <&kp LC(V)>,
-                <&macro_wait_time 100>,
+                <&macro_wait_time 50>,
                 <&kp ENTER>;
 
             label = "TRANSLATE";
