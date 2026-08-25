@@ -48,7 +48,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp LC(C)>,
-                <&macro_wait_time 150>,
+                <&macro_wait_time 200>,
                 <&kp LG(N5)>,
                 <&macro_wait_time 300>,
                 <&kp LC(I)>,
